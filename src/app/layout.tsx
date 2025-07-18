@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ayana Izumi - AI WhatsApp Bot",
-  description: "Meet Ayana Izumi, your AI-powered WhatsApp companion who can chat, sing, speak, and create stunning images. Experience the future of AI conversation.",
+  description: "Teman AI Paling Gemes di WhatsApp! Bikin Chat-mu Makin Seru & Berwarna! 🌈.",
   keywords: "AI bot, WhatsApp bot, AI assistant, voice AI, image generation, AI chat, Indonesia AI, virtual assistant, chatbot",
   authors: [{ name: "PGRjoystick" }],
   creator: "PGRjoystick",

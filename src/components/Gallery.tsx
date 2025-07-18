@@ -91,21 +91,32 @@ export function Gallery() {
               key={index}
               className="group relative bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl dark:shadow-gray-900/50 transition-all duration-300"
             >
-              <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-cyan-100 to-blue-100 dark:from-cyan-900/30 dark:to-blue-900/30 cursor-pointer">
+              <div 
+                className="aspect-video relative overflow-hidden bg-gradient-to-br from-cyan-100 to-blue-100 dark:from-cyan-900/30 dark:to-blue-900/30 cursor-pointer"
+                onClick={() => {
+                  if (item.type === "image") {
+                    setSelectedImage(item.image);
+                  } else if (item.type === "audio" && item.audioSrc) {
+                    handleAudioToggle(index, item.audioSrc);
+                  }
+                }}
+              >
                 {/* Actual Screenshots */}
                 <Image
                   src={item.image}
                   alt={item.alt}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  onClick={() => item.type === "image" && setSelectedImage(item.image)}
                 />
                 
                 {/* Image zoom button for image items */}
                 {item.type === "image" && (
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
                     <button
-                      onClick={() => setSelectedImage(item.image)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedImage(item.image);
+                      }}
                       className="bg-white/90 backdrop-blur-sm rounded-full p-4 shadow-lg hover:bg-white hover:scale-110 transition-all duration-300"
                       aria-label="View full screenshot"
                     >
@@ -118,7 +129,10 @@ export function Gallery() {
                 {item.type === "audio" && item.audioSrc && (
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
                     <button
-                      onClick={() => handleAudioToggle(index, item.audioSrc)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleAudioToggle(index, item.audioSrc);
+                      }}
                       className="bg-white/90 backdrop-blur-sm rounded-full p-4 shadow-lg hover:bg-white hover:scale-110 transition-all duration-300"
                       aria-label={playingAudio === index ? "Pause audio" : "Play audio sample"}
                     >

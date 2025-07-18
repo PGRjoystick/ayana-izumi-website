@@ -74,13 +74,13 @@ export function Gallery() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-cyan-50">
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-cyan-50 dark:from-gray-900 dark:to-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             ✨ Yuk, Intip Aksi Gemas Ayana di Sini! 💖
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Ini dia tangkapan layar asli dan contoh serunya Ayana saat berinteraksi di WhatsApp, khusus buat kamu!
           </p>
         </div>
@@ -89,9 +89,9 @@ export function Gallery() {
           {galleryItems.map((item, index) => (
             <div
               key={index}
-              className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+              className="group relative bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl dark:shadow-gray-900/50 transition-all duration-300"
             >
-              <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-cyan-100 to-blue-100 cursor-pointer">
+              <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-cyan-100 to-blue-100 dark:from-cyan-900/30 dark:to-blue-900/30 cursor-pointer">
                 {/* Actual Screenshots */}
                 <Image
                   src={item.image}
@@ -153,10 +153,10 @@ export function Gallery() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   {item.title}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   {item.description}
                 </p>
               </div>

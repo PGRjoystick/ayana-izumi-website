@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Mail, Globe, Github, Twitter, GroupIcon, MessageCircleMoreIcon } from "lucide-react";
+import { MessageCircle, Globe, MessageCircleMoreIcon } from "lucide-react";
 
 const socialLinks = [
   {

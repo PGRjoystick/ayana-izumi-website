@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a5f3fc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Overlay -->
+  <rect width="1200" height="630" fill="rgba(0,0,0,0.2)"/>
+  
+  <!-- Content Container -->
+  <g transform="translate(80, 120)">
+    <!-- Main Title -->
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGradient)">
+      Hai, Aku Ayana Izumi! 💖
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="36" fill="#a5f3fc">
+      AI WhatsApp Bot Paling Gemes!
+    </text>
+    
+    <!-- Description -->
+    <text x="0" y="200" font-family="Arial, sans-serif" font-size="28" fill="#ffffff">
+      🗣️ Ngobrol Seru  🎵 Nyanyi Bareng  🎨 Bikin Gambar
+    </text>
+    
+    <!-- Call to Action -->
+    <rect x="0" y="240" width="400" height="80" rx="40" fill="#ffffff" fill-opacity="0.9"/>
+    <text x="200" y="290" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0891b2" text-anchor="middle">
+      Chat Sekarang! 🚀
+    </text>
+    
+    <!-- Website URL -->
+    <text x="0" y="360" font-family="Arial, sans-serif" font-size="24" fill="#a5f3fc">
+      ayana.izumi.id
+    </text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="1000" cy="150" r="60" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="1100" cy="300" r="40" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="950" cy="450" r="80" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Floating Emojis -->
+  <text x="900" y="200" font-size="48">💬</text>
+  <text x="1050" y="350" font-size="48">🎤</text>
+  <text x="850" y="500" font-size="48">✨</text>
+</svg>

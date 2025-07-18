@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     locale: "id_ID",
     images: [
       {
-        url: "/og-image.svg", // We'll create this
+        url: "/og-image.png", // PNG version for better compatibility
         width: 1200,
         height: 630,
         alt: "Ayana Izumi - AI WhatsApp Bot yang Gemes dan Pintar",
-        type: "image/svg+xml",
+        type: "image/png",
       },
       {
         url: "/screenshots/chat-demo.jpg", // Fallback to existing screenshot
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Ayana Izumi - AI WhatsApp Bot Paling Gemes! 💖",
     description: "Teman AI yang bisa ngobrol, nyanyi, ngomong, dan bikin gambar keren! Chat sama Ayana sekarang! 🌈✨",
     images: {
-      url: "/og-image.svg",
+      url: "/og-image.png",
       alt: "Ayana Izumi - AI WhatsApp Bot yang Gemes dan Pintar",
     },
   },

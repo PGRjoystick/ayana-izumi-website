@@ -39,13 +39,6 @@ export const metadata: Metadata = {
         alt: "Ayana Izumi - AI WhatsApp Bot yang Gemes dan Pintar",
         type: "image/png",
       },
-      {
-        url: "/screenshots/chat-demo.jpg", // Fallback to existing screenshot
-        width: 800,
-        height: 600,
-        alt: "Screenshot chat WhatsApp dengan Ayana Izumi",
-        type: "image/jpeg",
-      }
     ],
   },
   

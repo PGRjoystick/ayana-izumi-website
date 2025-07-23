@@ -1,4 +1,4 @@
-import { MessageCircle, Globe, MessageCircleMoreIcon } from "lucide-react";
+import { MessageCircle, Globe, MessageCircleMoreIcon, Heart } from "lucide-react";
 
 const socialLinks = [
   {
@@ -24,6 +24,14 @@ const socialLinks = [
     href: "https://ayana.izumi.id",
     color: "from-indigo-500 to-blue-500",
     bgColor: "bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-900/20 dark:hover:bg-indigo-800/30"
+  },
+  {
+    icon: Heart,
+    name: "💖 Donasi",
+    description: "Dukung proyek Ayana dengan donasi. Terima kasih atas dukungannya! 🙏",
+    href: "https://trakteer.id/PGRjoystick/",
+    color: "from-pink-500 to-rose-500",
+    bgColor: "bg-pink-50 hover:bg-pink-100 dark:bg-pink-900/20 dark:hover:bg-pink-800/30"
   }
 ];
 
@@ -40,7 +48,7 @@ export function SocialLinks() {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {socialLinks.map((link, index) => {
             const Icon = link.icon;
             return (

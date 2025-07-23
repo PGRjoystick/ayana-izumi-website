@@ -28,7 +28,7 @@ const socialLinks = [
   {
     icon: Heart,
     name: "💖 Donasi",
-    description: "Dukung proyek Ayana dengan donasi. Terima kasih atas dukungannya! 🙏",
+    description: "Suka dengan Ayana? Dukung pengembangan Ayana dengan berdonasi disini! 🥹🥰",
     href: "https://trakteer.id/PGRjoystick/",
     color: "from-pink-500 to-rose-500",
     bgColor: "bg-pink-50 hover:bg-pink-100 dark:bg-pink-900/20 dark:hover:bg-pink-800/30"

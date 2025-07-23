@@ -39,7 +39,7 @@ export function Footer() {
                 Siap untuk Chat dengan Ayana?
               </p>
               <a
-                href="https://chat-ayana-izumi.id"
+                href="https://chat-ayana.izumi.id"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 bg-green-600 dark:bg-green-500 text-white rounded-lg hover:bg-green-700 dark:hover:bg-green-600 transition-colors"

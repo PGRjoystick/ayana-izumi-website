@@ -33,6 +33,13 @@ export const metadata: Metadata = {
     locale: "id_ID",
     images: [
       {
+        url: '/og-image.jpg', // Try JPEG first
+        width: 1200,
+        height: 630,
+        alt: 'Ayana Izumi - AI WhatsApp Bot yang Gemes dan Pintar',
+        type: 'image/jpeg',
+      },
+      {
         url: "/og-image.png", // PNG version for better compatibility
         width: 1200,
         height: 630,

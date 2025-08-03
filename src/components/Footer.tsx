@@ -54,7 +54,15 @@ export function Footer() {
           <div className="flex items-center justify-center space-x-2 text-gray-400 dark:text-gray-300">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>by PGRjoystick</span>
+            <span>by</span>
+            <a 
+              href="https://pgrjoystick.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-400 dark:text-cyan-300 hover:text-cyan-300 dark:hover:text-cyan-200 transition-colors font-medium"
+            >
+              PGRjoystick
+            </a>
           </div>
           <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
             © {new Date().getFullYear()} Ayana Izumi, Latent Space Explorer. All rights reserved.

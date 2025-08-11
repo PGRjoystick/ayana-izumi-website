@@ -23,6 +23,11 @@ export const metadata: Metadata = {
   robots: "index, follow",
   metadataBase: new URL("https://ayana.izumi.id"),
   
+  // Language and content metadata
+  other: {
+    "content-language": "id-ID",
+  },
+  
   // Open Graph metadata for social media sharing
   openGraph: {
     title: "Ayana Izumi - AI WhatsApp Bot Paling Gemes! 💖",
@@ -77,13 +82,9 @@ export const metadata: Metadata = {
   //   }
   // },
   
-  // Alternate languages if you plan to add English version
+  // Canonical URL configuration
   alternates: {
-    canonical: "https://ayana.izumi.id",
-    languages: {
-      "id-ID": "https://ayana.izumi.id",
-      // "en-US": "https://ayana.izumi.id/en", // Future English version
-    },
+    canonical: "https://ayana.izumi.id/",
   },
   
   // Icons and favicons

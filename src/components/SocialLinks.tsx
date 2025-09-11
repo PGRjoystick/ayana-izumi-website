@@ -1,4 +1,4 @@
-import { MessageCircle, Globe, MessageCircleMoreIcon, Heart } from "lucide-react";
+import { MessageCircle, Globe, MessageCircleMoreIcon, Heart, Send } from "lucide-react";
 
 const socialLinks = [
   {
@@ -8,6 +8,14 @@ const socialLinks = [
     href: "https://chat-ayana.izumi.id",
     color: "from-green-500 to-emerald-500",
     bgColor: "bg-green-50 hover:bg-green-100 dark:bg-green-900/20 dark:hover:bg-green-800/30"
+  },
+  {
+    icon: Send,
+    name: "Telegram",
+    description: "Chat Ayana di Telegram",
+    href: "https://t.me/AyanaIzumi_bot",
+    color: "from-sky-500 to-blue-500",
+    bgColor: "bg-sky-50 hover:bg-sky-100 dark:bg-sky-900/20 dark:hover:bg-sky-800/30"
   },
   {
     icon: MessageCircleMoreIcon,
@@ -44,11 +52,11 @@ export function SocialLinks() {
             Yuk, Ngobrol Bareng Ayana!
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Udah siap buat seru-seruan bareng Ayana? Yuk, Chat Ayana sekarang! Kalau mau dapat info update terbaru dan seru-seruan bareng teman-teman yang lain, gabung aja ke grup chat Ayana ya! Ayana tunggu lho! 😉💖
+            Udah siap buat seru-seruan bareng Ayana? Yuk, Chat Ayana sekarang di WhatsApp atau Telegram! Kalau mau dapat info update terbaru dan seru-seruan bareng teman-teman yang lain, gabung aja ke grup chat Ayana ya! Ayana tunggu lho! 😉💖
           </p>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {socialLinks.map((link, index) => {
             const Icon = link.icon;
             return (

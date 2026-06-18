@@ -1,4 +1,4 @@
-import { MessageCircle, Globe, MessageCircleMoreIcon, Heart, Send } from "lucide-react";
+import { MessageCircle, Globe, MessageCircleMoreIcon, Heart, Send, BotMessageSquare, MessageCircleHeart } from "lucide-react";
 
 const socialLinks = [
   {
@@ -26,10 +26,10 @@ const socialLinks = [
     bgColor: "bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/20 dark:hover:bg-blue-800/30"
   },
   {
-    icon: Globe,
-    name: "Website",
-    description: "Kunjungi website utama Ayana",
-    href: "https://ayana.izumi.id",
+    icon: MessageCircleHeart,
+    name: "Web App Ayana",
+    description: "Chat ayana di Web App Ayana, bisa diakses dari browser lho! 🌐",
+    href: "https://app-ayana.izumi.id",
     color: "from-indigo-500 to-blue-500",
     bgColor: "bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-900/20 dark:hover:bg-indigo-800/30"
   },

@@ -1,4 +1,4 @@
-import { MessageCircle, Globe, MessageCircleMoreIcon, Heart, Send, BotMessageSquare, MessageCircleHeart } from "lucide-react";
+import { MessageCircle, MessageCircleMoreIcon, Heart, Send, MessageCircleHeart } from "lucide-react";
 
 const socialLinks = [
   {

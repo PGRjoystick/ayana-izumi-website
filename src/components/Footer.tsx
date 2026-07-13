@@ -28,6 +28,12 @@ export function Footer() {
               <a href="#social" className="block text-gray-400 dark:text-gray-300 hover:text-white dark:hover:text-cyan-300 transition-colors">
                 Connect
               </a>
+              <a href="/terms" className="block text-gray-400 dark:text-gray-300 hover:text-white dark:hover:text-cyan-300 transition-colors">
+                Syarat & Ketentuan
+              </a>
+              <a href="/privacy" className="block text-gray-400 dark:text-gray-300 hover:text-white dark:hover:text-cyan-300 transition-colors">
+                Kebijakan Privasi
+              </a>
             </div>
           </div>
           

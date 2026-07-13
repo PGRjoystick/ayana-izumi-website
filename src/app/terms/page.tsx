@@ -216,13 +216,13 @@ export default function TermsPage() {
             </h2>
             <p>
               Jika kamu memiliki pertanyaan mengenai syarat dan ketentuan ini,
-              silakan hubungi kami melalui tautan yang tersedia di{" "}
-              <Link
-                href="/#social"
+              silakan hubungi tim dukungan Ayana melalui email di{" "}
+              <a
+                href="mailto:ayana@izumi.id"
                 className="text-cyan-600 dark:text-cyan-300 hover:text-cyan-700 dark:hover:text-cyan-200 underline transition-colors"
               >
-                halaman utama
-              </Link>
+                ayana@izumi.id
+              </a>
               .
             </p>
           </section>

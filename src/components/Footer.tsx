@@ -52,6 +52,15 @@ export function Footer() {
               >
                 Chat Sekarang!
               </a>
+              <p className="text-gray-400 dark:text-gray-300 pt-2">
+                Butuh bantuan?{" "}
+                <a
+                  href="mailto:ayana@izumi.id"
+                  className="text-cyan-400 dark:text-cyan-300 hover:text-cyan-300 dark:hover:text-cyan-200 transition-colors"
+                >
+                  ayana@izumi.id
+                </a>
+              </p>
             </div>
           </div>
         </div>

@@ -259,13 +259,13 @@ export default function PrivacyPage() {
             </h2>
             <p>
               Jika kamu memiliki pertanyaan mengenai kebijakan privasi ini,
-              silakan hubungi kami melalui tautan yang tersedia di{" "}
-              <Link
-                href="/#social"
+              silakan hubungi tim dukungan Ayana melalui email di{" "}
+              <a
+                href="mailto:ayana@izumi.id"
                 className="text-cyan-600 dark:text-cyan-300 hover:text-cyan-700 dark:hover:text-cyan-200 underline transition-colors"
               >
-                halaman utama
-              </Link>
+                ayana@izumi.id
+              </a>
               .
             </p>
           </section>

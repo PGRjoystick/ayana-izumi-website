@@ -57,12 +57,6 @@ export function Hero() {
             >
               Jelajahi Fitur Ayana
             </a>
-            <a
-              href="#social"
-              className="w-full sm:w-auto border-2 border-white dark:border-cyan-200 text-white dark:text-cyan-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold hover:bg-white hover:text-cyan-600 dark:hover:bg-cyan-100 dark:hover:text-cyan-700 transition-colors text-base sm:text-lg"
-            >
-              Chat Sekarang!
-            </a>
           </div>
           <p className="mt-4 text-sm sm:text-base text-cyan-100 dark:text-cyan-200 px-4">
             Tanpa install, langsung dari browser HP atau laptop kamu! 🌐
